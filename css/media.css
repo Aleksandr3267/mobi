@@ -88,9 +88,13 @@
     }
     nav .container{
         flex-direction: column;
+        text-align: center;
     }
     nav .container .logo{
         margin: 20px 0 0 0;
+    }
+     nav .logo p {
+        margin: 0;
     }
     #main-menu li .link{
         font-size: 1.4em;
