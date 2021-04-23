@@ -328,6 +328,7 @@ nav .nav_bar .menu li .link:hover{
 .gallery_slider .slider_item{
     margin: 0 20px;
     text-align: center;
+    border-radius:20px;
 }
 .gallery_slider .slider_item img{
     width: 100%;
