@@ -37,17 +37,26 @@
         display: inline-block;
         margin: 20px 20px;
     }
+}
+
+@media(max-width:1000px){
+    .number_zvon{
+        display: none;
+    }
     .header .home {
-        padding: 180px 0 92px 0;
+        padding: 40px 0 132px 0;
+        
+    }
+    .header .home .container{
+        flex-direction: column;
+    }
+    .home-lif{
+        top: 40px;
     }
 }
 @media(max-width:700px){
     .heading{
         font-size: 2.2em;
-    }
-
-    .home-lif{
-        display: none;
     }
     /* --------------------------------- footer --------------------------------- */
     .footer_contant{
@@ -78,9 +87,7 @@
     .we_offer_content_categories{
         grid-template-columns: 1fr ;
     }
-    .header .home {
-        padding: 140px 0 92px 0;
-    }
+    
 }
 @media(max-width:500px){
     .heading{
@@ -88,9 +95,13 @@
     }
     nav .container{
         flex-direction: column;
+        
     }
     nav .container .logo{
         margin: 20px 0 0 0;
+    }
+    nav .logo p {
+        margin: 0;
     }
     #main-menu li .link{
         font-size: 1.4em;
@@ -98,10 +109,6 @@
     }
     .number_zvon{
         margin: 30px 0 30px 0;
-    }
-
-    .header .home {
-        padding: 120px 0 92px 0;
     }
     .header .home .container{
         text-align: center;
@@ -113,7 +120,7 @@
     .header .home .call_submit {
         padding: 15px 25px;
         border-radius: 40px;
-        margin: 100px 0 0 0px;
+        margin: 40px 0 0 0px;
     }
 }
 
