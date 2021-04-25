@@ -25,17 +25,20 @@
     nav .nav_bar .menu{
         display: block;
     }
-    #main-menu li .link{
+    #main-menu li a{
         display: inline-block;
         font-size: 1.6em;
         margin: 60px 60px;
     }
-    #main-menu.active li .link{
+    #main-menu.active li a{
         color: white;
     }
-    #main-menu li .link i{
+    #main-menu li a i{
         display: inline-block;
         margin: 20px 20px;
+    }
+    .header nav .nav_bar .menu li a:after{
+        display: none;
     }
 }
 
@@ -75,6 +78,15 @@
     .footer_contant-forms{
         margin: 80px 0 0 0;
     }
+
+    /* ------------------------------- woocomerce ------------------------------- */
+    .comment-form .comment-form-comment textarea{
+        max-width: 280px;
+        margin: 10px 0;
+        max-height: 400px;
+        min-width: 280px;
+        
+    }
 }
 
 
@@ -102,13 +114,17 @@
     }
     nav .logo p {
         margin: 0;
+        font-size: 1.5em;
     }
-    #main-menu li .link{
+    #main-menu li a{
         font-size: 1.4em;
         margin: 30px 20px;
     }
     .number_zvon{
         margin: 30px 0 30px 0;
+    }
+    .heading {
+        text-shadow: 2px 2px 5px rgb(184, 184, 184);
     }
     .header .home .container{
         text-align: center;
